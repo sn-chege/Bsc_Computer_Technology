@@ -1,0 +1,78 @@
+A regular expression (sometimes called a rational expression) is a sequence of characters that define a search pattern, mainly for use in pattern matching with strings, or string matching, i.e. “find and replace”-like operations.
+
+Example :  Regular expression for an email address :
+^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$ 
+
+
+1) Write a regular expression for each of the following sets of binary strings. Use only the basic operations.
+	a) 0 or 11 or 101
+	b) only 0s
+	Answers: 
+		0 | 11 | 101
+		0*
+
+
+2) Write a regular expression for each of the following sets of binary strings. Use only the basic operations.
+	a) all binary strings
+	b) all binary strings except empty string
+	c) begins with 1, ends with 1
+	d) ends with 00
+	e) contains at least three 1s
+	Answers: 
+		(0|1)*
+		(0|1)(0|1)*
+		1 | 1(0|1)*1
+		(0|1)*00
+		(0|1)*1(0|1)*1(0|1)*1(0|1)* or 0*10*10*1(0|1)*.
+
+
+3) Write a regular expression to describe inputs over the alphabet {a, b, c} that are in sorted order. 
+	Answer: 
+		a*b*c*.
+
+
+4) Write a regular expression for each of the following sets of binary strings. Use only the basic operations.
+	a) contains at least three consecutive 1s
+	b) contains the substring 110
+	c) contains the substring 1101100
+	d) doesn't contain the substring 110
+	Answers: 
+		(0|1)*111(0|1)*
+		(0|1)*110(0|1)*
+		(0|1)*1101100(0|1)*
+		(0|10)*1*. The last one is by far the trickiest.
+
+5) Write a regular expression for binary strings with at least two 0s but not consecutive 0s.
+
+
+6) Write a regular expression for each of the following sets of binary strings. Use only the basic operations.
+	a) has at least 3 characters, and the third character is 0
+	b) number of 0s is a multiple of 3
+	c) starts and ends with the same character
+	d) odd length
+	e) starts with 0 and has odd length, or starts with 1 and has even length
+	f) length is at least 1 and at most 3
+	Answers: 
+		(0|1)(0|1)0(0|1)*
+		1* | (1*01*01*01*)*
+		1(0|1)*1 | 0(0|1)*0 | 0 | 1
+		(0|1)((0|1)(0|1))*
+		0((0|1)(0|1))* | 1(0|1)((0|1)(0|1))*
+		(0|1) | (0|1)(0|1) | (0|1)(0|1)(0|1)
+
+
+7) For each of the following, indicate how many bit strings of length exactly 1000 are matched by the regular expression: 0(0 | 1)*1, 0*101*, (1 | 01)*.
+
+
+8) Write a regular expression that matches all strings over the alphabet {a, b, c} that contain:
+	a) starts and ends with a
+	b) at most one a
+	c) at least two a's
+	d) an even number of a's
+	e) number of a's plus number of b's is even
+
+
+9) Find long words whose letters are in alphabetical order, e.g., almost and beefily. 
+	Answer:
+		use the regular expression '^a*b*c*d*e*f*g*h*i*j*k*l*m*n*o*p*q*r*s*t*u*v*w*x*y*z*$'.
+

@@ -1,0 +1,42 @@
+Shadow Paging
+
+Shadow paging is a crash recovery technique for databases. To explain the basic idea before explaining the technicalities of how shadow paging is implemented, I will use n example. Lets take the case of a hospital management system, supposing you have 500 data entries and you would like to make changes onto them as well as add more records. With shadow paging, all the changes are first made on a copy of the database called a shadow database. The copy is then applied to the original database. The purpose for doing this is to preserve the original data, just in case the updates get an error, and also to make the update appear atomic to other database users.
+
+In shadow paging a database is partitioned into fixed-length logical units of storage referred to as pages. This pages may be ordered non-sequentially on the storage disk. The general plan in shadow paging involves preserving two page tables during the life of a transaction, namely;
+	1. The current page table
+	2. The shadow page table
+At the begin phase of a transaction, both page tables are completely similar. The shadow page table remains unchanged throught out a transaction. All write operations are reflected on the current page table. At the end of a transaction, the contents of the current page table overwrite the shadow page table and they become identical. 
+
+Procedure
+To explain the concept, the following diagram. 
+
+
+
+
+2 write operations are performed on page 3 and 5. Before the start of write operation on page 3, current page table points to old page 3. When write operation starts the following steps are performed :
+
+1. Search start for available free block in disk blocks.
+2. After finding free block, it copies page 3 to free block which is represented by Page 3 (New).
+3. Now current page table points to Page 3 (New) on disk but shadow page table points to old page 3 because it is not modified.
+4. The changes are now propagated to Page 3 (New) which is pointed by current page table.
+
+To commit transaction the following steps should be done :
+1. All the modifications which are done by transaction which are present in buffers are transferred to physical database.
+2. Output current page table to disk.
+3. Disk address of current page table output to fixed location which is in stable storage containing address of shadow page table. This operation overwrites address of old shadow page table. With this current page table becomes same as shadow page table and transaction is committed.
+
+Error Handling
+The system may crash during execution but before a commit is projected. With this, it is sufficient only to free modified database pages and discard current page table. Before execution of transaction, state of database get recovered by reinstalling shadow page table.
+If the crash of system occur after last write operation then it does not affect propagation of changes that are made by transaction. These changes are preserved and there is no need to perform redo operation.
+
+Advantages of shadow paging
+
+This method require fewer disk accesses to perform operation.
+Recovery from crash is inexpensive and quite fast.
+There is no need of operations like- Undo and Redo.
+
+Disadvantages of shadow paging
+
+Commit overhead. The commit of a single transaction using shadow paging requires multiple blocks to be output - the current page table, the actual data and the disk address of the current page table. Log-based schemes need to output only the log records.
+Data fragmentation - Shadow paging causes database pages to change locations (therefore, no longer contiguous.
+Garbage collection. Each time that a transaction commits, the database pages containing the old version of data changed by the transactions must become inaccessible. Such pages are considered to be garbage since they are not part of the free space and do not contain any usable information. This necessitates garbage collection and imposes additional overhead and complexity on the system.
