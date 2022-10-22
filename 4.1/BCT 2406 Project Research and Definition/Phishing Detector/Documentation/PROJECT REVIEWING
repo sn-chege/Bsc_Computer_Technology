@@ -1,0 +1,23 @@
+PROJECT REVIEWING
+=============================================================================================
+Abstract:
+-------------------
+
+
+
+=============================================================================================
+ 
+Uniform Resource Locator (URL)
+------------------------
+URL is the abbreviation of Uniform Resource Locator, which is the global address of documents and other resources on the World Wide Web. A URL has two main components : 
+(i) Protocol identifier (indicates what protocol to use) e.g. https
+(ii) Resource name (specifies the IP address or the domain name where the resource is located). The protocol identifier and the resource name are separated by a colon and two forward slashes e.g. google.com	
+
+
+There are two major segments of phishing: First, a potential victim receiving a phishing email and the second, where the victim is driving to the spoofed website via a fake email. There could be a chance of including an attachment too to install malware or replying with sensitive information.
+
+Phishing Email 
+	Criminals generally use a social technique rather than technical tricks in their phishing emails to fool their end-users. For instance, the conveying urgency is a well-known method used by criminals to misdirect people's attention. In some cases, the criminals pretend to be a system administrator warning people about a new attack and urging them to install the attached path [5].
+
+Spoof website 
+	Most phishing attacks try to convince people to go to a fake site where personal information can be collected. To host a fake site, Phisher’s use free web space, use a compromised machine or register a new domain. In most cases, cyber criminals register the domain name similar to the site they want to imitate. For example, Phisher’s might register PayPal site as paypal-login.com. Criminals also use homograph attacks that exploit the visual similarity

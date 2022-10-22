@@ -1,0 +1,17 @@
+Symbolic Artificial Intelligence
+		(Good Old Fashioned AI - GOFAI), makes use of strings that represent real-world entities or concepts. These strings are then stored manually or incrementally in a Knowledge Base (any appropriate data structure) and made available to the interfacing human being/machine as and when requested, as well as used to make intelligent conclusions and decisions based on the memorized facts and rules put together by propositional logic or first-order predicate calculus techniques.
+		• Ability to represent knowledge
+		• Ability to reason etc
+		• AI programming languages
+
+Non-Symbolic Artificial Intelligence 
+		Involves providing raw environmental data to the machine and leaving it to recognize patterns and create its own complex, high-dimensionality representations of the raw sensory data being provided to it.
+		• Artificial Neural Networks
+		• Connectionism 
+				Connectionism is a philosophy of artificial intelligence that promotes modeling the human brain by creating small artificial units corresponding to human neurons and groups of neurons in the brain. One of the fundamental aspects of connectionism is the insistence that high-level behavioral and cognitive systems can be built using small individual units tied together in a combined network
+
+
+Drawbacks of Non-Symbolic AI
+		* Non-Symbolic AI (like Deep Learning algorithms) are intensely data hungry. They require huge amounts of data to be able to learn any representation effectively. 
+		* They also create representations that are too mathematically abstract or complex, to be viewed and understood.
+

@@ -1,0 +1,78 @@
+Documentation Format
+=====================
+
+-----------------------------------------------------
+Cover page [1]
+Abstract [1/2]
+Objectives [1/2]
+Introduction of your topic [1]
+Body
+
+	Sample
+	--------------
+	1 Introduction
+	1.1 Robotics
+	1.1.1 Socially Assistive Robots
+
+
+Conclusion [1/2]
+Reflections [1/2]
+References [1]
+-----------------------------------------------------
+
+Cover page [1]
+==============
+Abstract [1/2]
+--------------
+
+
+
+Objectives [1/2]
+-----------------
+To understand the general  working mechanism of a quantum computer.
+To identify the potential problems that quantum computers can solve. 
+To find out how to harness the power of a quantum computer.
+To review the impact of quantum computers in cybersecurity and Artificial intelligence.
+To review the challenges that hinder the construction of quantum computers.
+
+===================================
+Body [6]
+1 Introduction (3/4)
+	-- Introduction
+	-- Quantum  Mechanics
+	-- Classical Computers and Quantum Computers
+
+1.1 Brief history (.5)
+
+1.2 Intractable problems (.5)
+
+1.3 The Steampunk Chandelier (.5)
+
+1.4 Interaction between classical and quantum computers (.5)
+
+1.5 Integrating Quantum Computers into your workflow (.5)
+
+1.6 Getting involved as an enthusiast (.5)
+1.6.1 Development of Quantum Applications 
+1.6.2 Quantum Development Environments
+
+1.7 Quantum Computers in Cybersecurity (.5)
+
+1.8 Quantum Computers in Artificial intelligence (.5)
+
+1.9 Application Areas 3/4
+
+1.10 Major Breakthroughs in Quantum Computing (.5)
+
+1.11 Challenges hindering construction of quantum computers (.5)
+
+===================================
+Conclusion [1/2]
+----------------
+
+Reflections [1/2]
+-----------------
+
+References [1]
+--------------
+===================================

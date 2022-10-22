@@ -1,0 +1,76 @@
+What are Quantum Computers and how are they different from classical computers?
+--------------------------------------------------------------------------------
+* Quantum computers are machines that use the properties of quantum physics to store data and perform computations. 
+* Qubits are the basic units of the quantum memory which can hold both 0 and 1 simultaneously thanks to  superposition, contrast to classical bits that can be either 0 or 1.
+* Quantum computers make use of this property to handle computations that scale up exponentially, a task that classical computers are unable to handle.
+* Quantum computers are still in infancy and top companies such as google, IBM and Microsoft are racing to make the most efficient quantum computers
+
+
+Potential poblems that quantum computers can solve
+--------------------------------------------------
+- Modelling the world (How many qubits can be used to model all the atoms in the world.?)
+- Maps 
+
+
+How Quantum Computers interact with classical computers
+-------------------------------------------------------
+	[Diagram with various layers] - source: IEEE Explore journal article
+
+	 * Quantum computer would be as a coprocessor to a classical computing system, much in the same way as a graphics processing unit (GPU) performs specialized operations that the traditional central processing unit (CPU) cannot do.
+
+	 * A quantum processing unit (QPU) is a computational unit that relies on quantum principles to perform a task. the QPU includes the:
+
+		-> QRAM (register + gates)
+		-> Quantum control unit (QCU) which drives the system to the desired state.
+		-> Classical controller interface which defines the interaction between the host CPU and the QPU
+
+
+The Steampunk Chandelier (Environment)
+--------------------------------------
+	
+
+
+How to integrate them into your computer system set up?
+-------------------------------------------------------
+	In-house Set up 
+
+		* Quite expensive and rather delicate to maintain, but also because of the blistering pace of progress. The predominant risk of a quantum computer being outdated even before it is properly run-in is a bit daunting and should spur the plans to source such a service.
+
+		* Quantum computers don't really have an equivalent to Windows or Linux—a generic operating system that works on many different quantum computer hardware platforms. Of course, there are projects with this aim, but I believe we will need to go through a few generations before some standard emerges.
+		(
+			The in-house solution for a quantum computer would require much of what we saw in the early days of mainframe computers. We're talking lavish location, comprehensive cooling, excessive electrical consumption, draconian cleanliness, expert access only, and of course, no external interference whatsoever.
+		)
+
+	Cloud Quantum Computer
+		
+		* Trust, but verify - You do not know who is using the same computer at the other end. Collaborate with a security team for this
+	
+
+
+How does a developer interact with the quantum computer?
+--------------------------------------------------------
+	To program a quantum computer, the programmer will send the algorithms via a host system, typically called “host processor”. A host processor is a classical computer which has a high bandwidth connection to the QCU. The host runs a conventional operating system to allow the user interaction with the quantum processor.
+
+
+Development Environments
+------------------------
+Various vendors such as google provide libraries and SDKs to access quantum computers on the cloud
+* Google has CIRCI - An open source Software library for writing, manipulating and optimizing quantum circuits then running them on quantum computers and simulators
+* IBM has QISKIT - An open source SDK for working with IBM's Quantum Computers
+* Microsoft has Q# - A high level quantum focused PL for quantum program development + Quantum Develepment Kit  
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+With a quantum computer, we can code the rules of physics into the way atoms interact
+
+Modern science has shown that matter is an arrangement of atoms. Quantum Mechanics is a field of science that deals with the study of very small particles. Matter anything that has mass and ocupies space eg stones, tables, planets This has paved way to quantum computing which  applies the rules of quantum mechanics to build computerswith turbo-charged computations. These types of computers can increase computational power beyond what is achievable by today’s conventional computers.
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Quantum computers are still in infancy and top companies such as google, IBM and Microsoft are racing to make the most efficient quantum computers

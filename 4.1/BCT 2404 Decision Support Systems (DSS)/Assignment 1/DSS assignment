@@ -1,0 +1,80 @@
+Q1. Using WWW search engine, locate several examples of software packages that claim to include a form of decision supporting capabilities. Make a comparative listing of their hardware and software requirements to determine those most likely to be operational across multiple platforms and architectures.
+
+1. Microsoft Office
+This general purpose software package has a spreadsheet software called Microsoft Excel which is used to analyze, compare and evaluate statistical data. This software uses what if scenerios. Ms Excel provides the user with a graphical user interface for intraction with the user and has a variety of data representation analytics features 
+
+2. Google G suite
+Google docs is a communication driven DSS. Documents available online on this platform can be simultaneously be modiefied or accessed by more than one person. This platform also offers the ability to create charts that can be imported to Google slides.
+
+3. Oracle ERP.
+Oracle ERP. It is a software used by organizations to manage day to day business activities such as
+accounting, procurement, project management, risk management and compliance, and supply chain
+operations. It includes enterprise performance management, software that helps plan, budget, predict
+and report on an organization’s financial results.
+
+4. Apple I work.
+This general purpose application package contains a spreedsheet software called Numbers. It is a spreadsheet application developed by Apple Inc. It is used for spreadsheet analysis as an
+equivalent of excel.
+
+5. Apache open office.
+This general purpose application package contains a spreedsheet software called open office calc which is used to analyze, compare and evaluate statistical data. This software uses what if scenerios and is used in SWOT analysis
+
+
+1. Microsoft Office
+Windows 7 or higher, Mac OS, Linux, Android
+1 Hz clock speed, 1GB(32bit) or 2 GB(64 bit) RAM, 3GB free hard disk space ,1280*800 monitor resolution, DVD ROM,Direct X10.0 compatible graphics card, mouse or compatible device.
+
+2. Google G suite
+Windows, macOS, Android, Ios,Blackberry, Linux and chromeOS. 
+Browsers that can be used include Internet Explorer v6 or above, Chrome(assured for offline features),Firefox v1.07 or above, and Safari 3.1 or higher. 
+Compatible with various file formats.
+Intel Pentium 4 processor or a later version that is SSE3 capable.
+
+3. Oracle ERP.
+Windows,linux and Solaris
+AMD Opteron, Intel Pentium at 500Mhz or faster or Intel EM64T., Minimum 500mb free disk space for
+installation, Minimum 1 GB physical memory.
+
+
+4. Apple I work.
+MacOS, iOS
+A Mac with an Intel, PowerPC G5 or PowerPC G4(500mhz or faster )processor, 512 MB RAM,
+Approximately 1.2 GB available disk space
+
+5. Apache open office.
+Can operate on windows, linux, macOS.
+Intel processor
+512 MB RAM, 1024*768 or higher resolutions, At least 400MBs available disk space.
+
+
+
+Q2.Analyze a DSS application in the market. Describe its main components and summarize its functionalities.
+
+Application: TCBWorks
+
+What is TCBWorks?
+A first generation web-based groupware system, where individuals can work together to generate ideas, discuss problems, and make decisions whether they are in the same room, or halfway around the world. More than 200 organizations around the world are using the software, either on their server or the main host's server. TCBWorks has been used to support same time and place meetings in decision room settings and where some participants are at remote locations.
+
+Architecture of TCBWorks
+
+TCBWorks uses n-tier architechture with 4 major layers. Each component is separate, thus easy to spread different components on different servers and to partition the application logic on two different servers. When the user first connects to the web server, it presents a login screen that requests the user to enter a user name and password. Once a user has successfully logged on, the user is presented with the Project Screen which screen displays the list all projects to which the user has access. The user can then navigate around the system by selecting projects and going further indepth into their sub-units.
+
+The 4 Major Components include:
+1. Presentation layer (Web Browser on client computer) - This is used to interact with the system
+2. Application layer (Web Server) - This responds to users requests by providing HTML pages and graphics or by sending request to third componentc. 
+3. Application Logic (Set of 38 C programs) - This perform various functions such as adding comments or voting
+4. Database Layer (Database Server) - This handles all operations pertaining to data (data access logic, data storage).
+
+
+Features:
+- All of the information in TCBWorks is located in (hierarchical) Projects.
+- Many Topics are present in a single Project.
+- Comments are paragraphs of user entered remarks.
+- TCBWorks also allows voting on Topics.
+- Projects, topics, comments, and voting all have a variety of options.
+- There are 4 types of users in TCBWorks: 
+1. Administrator can perform any function, including creating and deleting users.
+2. An Organizer can create new projects and perform any function on the projects he or she creates, including granting access to other users, deleting the project, moving it, etc.
+3. A Participant can only access those projects to which they have been granted access by an organizer, and perform those functions permitted by the organizer.
+4. Observer has read-only access to the projects specified by an organizer
+

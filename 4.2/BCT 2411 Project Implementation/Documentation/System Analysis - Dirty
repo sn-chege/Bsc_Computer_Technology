@@ -1,0 +1,44 @@
+Chapter Outline: Chapter Name: System Analysis
+=================================
+4.1. Feasibility Study
+4.1.1. Technical Feasibility Study
+4.1.2. Economic Feasibility Study
+4.1.3. Operational Feasibility Study
+4.1.4. Social Feasibility Study
+4.2. Requirements Specification
+
+4.2.1. Functional Requirements
+	Straight forward statements about the functionalities that the system will deliver. Essentially follow the format “The system should….” Eg the system should allow users to sign up.
+
+4.2.2. Non-Functional/Quality Requirements.
+	Paste the ones you have here but make them at least 7. Also make sure you explain them well.
+
+4.2.3. Hardware Requirements
+	The hardware you need to develop the application eg A laptop with 4GB of RAM. Also speak of External storage you need and processor speed
+
+4.2.4 Software Requiremnts
+	The software you need to develop the application eg: android studio
+
+4.3. System Constraints
+	Constraints without which your application can not work. Eg: The Application can not work without internet connection
+
+4.4.Use Case Diagram
+	
+
+==========================================================================
+5.1. Conceptual Design
+-----------------------
+5.2. Architectural Design and System Components
+5.3. Database Design
+5.4. User Interface Design (UI design of major system components and forms if any)
+5.5. Other diagrams that help explain the system (eg flowchart diagrams, data flow diagrams, UML diagrams for those using the object oriented methodology, etc)
+
+
+===========================================================================
+SYSTEM ANALYSIS
+===============
+4.1. Feasibility Study
+4.1.1. Technical Feasibility Study
+4.1.2. Economic Feasibility Study
+4.1.3. Operational Feasibility Study
+4.1.4. Social Feasibility Study

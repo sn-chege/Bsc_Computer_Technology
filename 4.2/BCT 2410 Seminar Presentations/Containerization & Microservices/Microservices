@@ -1,0 +1,43 @@
+What are Microservices?
+
+      Microservices is an architectural design for building a distributed application. Microservices break an application into independent, loosely-coupled, individually deployable services. This microservices architecture allows for each service to scale or update using the deployment of service proxies without disrupting other services in the application and enables the rapid, frequent and reliable delivery of large, complex applications
+
+      This architecture allows for each service to scale or update without disrupting other services in the application so that applications can be continuously delivered to end users
+
+      Companies like Amazon and Netflix have re-architected monolithic applications to microservices applications, setting a new standard for container technology.
+
+
+Monolithic Architecture versus Microservices Architecture
+      Applications were traditionally built as monolithic pieces of software. Monolithic applications have long life cycles, are updated infrequently and changes usually affect the entire application. Adding new features requires reconfiguring and updating the entire stack. This costly and cumbersome process delays time-to-market and updates in application development.
+      
+      Microservices architecture was designed to remedy this problem. All services are created individually and deployed separately. This allows for autoscaling based on specific business needs. Containers and microservices require more flexible and elastic load balancing due to the highly transient nature of container workloads and the rapid scaling needs without affecting other parts of the application.
+
+
+What are Containers?
+      Containers are a lightweight, efficient and standard way for applications to move between environments and run independently. 
+
+      Everything needed (except for the shared operating system on the server) to run the application is packaged inside the container object: code, run time, system tools, libraries and dependencies.
+
+      Docker is the #1 most wanted and #2 most loved developer tool, and helps millions of developers build, share and run any app, anywhere - on-prem or in the cloud.
+
+      A single application can have hundreds of containers. The number of containers you use could be thousands if you use microservices-based applications. Managing all of these containers manually is challenging.   
+
+
+
+Container orchestrators
+
+      If you have hundreds or thousands of service instances deployed on containers, you need a good way to manage them. Container orchestration is the right solution for deploying and managing all of these containers.
+
+      Container orchestration is all about managing the lifecycles of containers, especially in large, dynamic environments. Software teams use container orchestration to control and automate many tasks such as:
+      *Deployment of containers
+      *Configuration of an application in relation to the containers running it
+      *Scaling up or removing containers to spread application load evenly across host infrastructure
+      *Movement of containers from one host to another if there is a shortage of resources in a host, or if a host dies
+      *Allocation of resources between containers
+      *Health monitoring of containers and hosts
+
+
+How does container orchestration work?
+      When you use a container orchestration tool, like Kubernetes or Docker Swarm (more on these shortly), you describe the configuration of your application in a YAML or JSON file, depending on the orchestration tool. These configurations files are where you tell the orchestration tool where to gather container images, how to establish networking between containers, how to mount storage volumes, and where to store logs for that container.
+      Once the container is running on the host, the orchestration tool manages its lifecycle according to the specifications you laid out in the container’s definition file.
+

@@ -1,0 +1,78 @@
+Petronillas Draft Assignment
+-----------------------------------------------------------------------------------
+Literature Review
+------------------
+
+
+
+
+
+
+-----------------------------------------------------------------------------------
+Identify
+-----------------
+* 1 Book
+	
+	Author: Tuli Krishan, Dr. Juneja Neenu.
+	Publication Title: Cyber security challenges & online frauds on internet
+	
+	Abstract
+
+		The fast evolution of on-line and mobile channels has etched out new markets and brought large opportunities for aborting and established organizations alike. However, sadly the past decade has additionally witnessed important disruption to ecommerce payment processes and systems. The interconnected, anonymous and fast nature of those channels has inevitably diode to the event of malicious threats targeting ecommerce and retail services corporations, their individuals and their customers.
+
+		These e-crime and digital fraud threats still evolve apace, with attackers utilizing progressively refined techniques to focus on vulnerabilities in individuals, processes and technologies. The e-crime threats, if with success completed, will undermine essential digital services, cause important injury to complete reputations, and end in wide money and operational pain for organizations and their customers.
+
+		Cyber crime is rising as a significant threat. Worldwide governments, police departments and intelligence units have begun to react. Initiatives to curb cross border cyber threats are taking form. Indian police has initiated special cyber cells across the country and have started educating the personnel. This text is a trial to supply a glimpse on cyber crime in Asian country. This text is predicated on numerous reports from journalism and news portal.
+
+	Reference:
+		"Cyber security challenges & online frauds on internet", International Journal of Advanced Research in IT and Engineering, Year 2016, Volume 5, Issue 2First page : ( 1) Last page : ( 12) Online ISSN : 2278-6244. 
+		(https://www.indianjournals.com/ijor.aspx?target=ijor:ijarie&volume=5&issue=2&article=001)
+
+
+* 1 Conference Proceeding
+	
+	
+	Title: Detecting Phishing Attacks Using Natural Language Processing and Machine Learning
+	Published in: 2018 IEEE 12th International Conference on Semantic Computing (ICSC)
+	Date of Conference: 31 Jan.-2 Feb. 2018
+
+	Abstract:
+
+		Phishing attacks are one of the most common and least defended security threats today. We present an approach which uses natural language processing techniques to analyze text and detect inappropriate statements which are indicative of phishing attacks. Our approach is novel compared to previous work because it focuses on the natural language text contained in the attack, performing semantic analysis of the text to detect malicious intent. To demonstrate the effectiveness of our approach, we have evaluated it using a large benchmark set of phishing emails.
+	
+	Reference:
+		T. Peng, I. Harris and Y. Sawa, "Detecting Phishing Attacks Using Natural Language Processing and Machine Learning," 2018 IEEE 12th International Conference on Semantic Computing (ICSC), 2018, pp. 300-301, doi: 10.1109/ICSC.2018.00056. (https://ieeexplore.ieee.org/abstract/document/8334479)
+
+
+* Research article 1 
+	Article Title: Why phishing still works: User strategies for combating phishing attacks
+	Year Published: 2015
+	Author: Mohamed Alsharnouby
+	
+	Abstract: 
+		We have conducted a user study to assess whether improved browser security indicators and increased awareness of phishing have led to users׳ improved ability to protect themselves against such attacks. Participants were shown a series of websites and asked to identify the phishing websites. We use eye tracking to obtain objective quantitative data on which visual cues draw users׳ attention as they determine the legitimacy of websites. Our results show that users successfully detected only 53% of phishing websites even when primed to identify them and that they generally spend very little time gazing at security indicators compared to website content when making assessments. However, we found that gaze time on browser chrome elements does correlate to increased ability to detect phishing. Interestingly, users׳ general technical proficiency does not correlate with improved detection scores.
+
+	Reference 
+		Mohamed Alsharnouby, Furkan Alaca, Sonia Chiasson, "Why phishing still works: User strategies for combating phishing attacks", International Journal of Human-Computer Studies,Volume 82, 2015, Pages 69-82, ISSN 1071-5819,
+		(https://doi.org/10.1016/j.ijhcs.2015.05.005.)
+		(https://www.sciencedirect.com/science/article/pii/S1071581915000993)
+
+
+
+* Research article 2
+	Article Title: 
+	Year Published:
+	Authors: Kang Leng Chiew, Kelvin Sheng Chek Yong & Choon Lin Tan
+
+	Abstract: 
+		Phishing was a threat in the cyber world a couple of decades ago and still is today. It has grown and evolved over the years as phishers are getting creative in planning and executing the attacks. Thus, there is a need for a review of the past and current phishing approaches. A systematic, comprehensive and easy-to-follow review of these approaches is presented here. The relevant mediums and vectors of these approaches are identified for each approach. The medium is the platform which the approaches reside and the vector is the means of propagation utilised by the phisher to deploy the attack. The paper focuses primarily on the detailed discussion of these approaches. The combination of these approaches that the phishers utilised in conducting their phishing attacks is also discussed. This review will give a better understanding of the characteristics of the existing phishing techniques which then acts as a stepping stone to the development of a holistic anti-phishing system. This review creates awareness of these phishing techniques and encourages the practice of phishing prevention among the readers. Furthermore, this review will gear the research direction through the types of phishing, while also allowing the identification of areas where the anti-phishing effort is lacking. This review will benefit not only the developers of anti-phishing techniques but the policy makers as well.
+
+	Reference
+		Kang Leng Chiew, Kelvin Sheng Chek Yong, Choon Lin Tan, "A survey of phishing attacks: Their types, vectors and technical approaches", Expert Systems with Applications, Volume 106, 2018, Pages 1-20, ISSN 0957-4174,
+		(https://doi.org/10.1016/j.eswa.2018.03.050.)
+		(https://www.sciencedirect.com/science/article/pii/S0957417418302070)
+
+
+-----------------------------------------------------------------------------------
+References
+==================

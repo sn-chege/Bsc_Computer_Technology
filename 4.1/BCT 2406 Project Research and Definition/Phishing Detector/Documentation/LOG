@@ -1,0 +1,53 @@
+Abstract	2
+
+
+Introduction	4
+Background	4
+
+Online businesses such as E-commerce platforms, auctioning websites and drop-shipping services are becoming the go-to model for most business today in order to keep their businesses afloat. The current global conditions such as the 2020 covid-19 pandemic have accelerated the migration of businesses to conduct their operations online. This business model is much easier to expand to both local and global customers than the regular physical retail stores. Online businesses offer delivery services for the products purchased from their platforms which is convenient for their customers. 
+
+In their mode of operation, online businesses conduct their operations by providing a catalog of the products or services that they offer on their website. This way, potential customers are able to get a general overview of the items that they intend to purchase or acquire. Once the customer identifies an item that they intend to purchase, they proceed to the checkout facilities provided by the platform. At this step, the customer may be requested to share critical information such as credit card details in order to process a payment. The platform further proceeds to storing the customers' information in order to make the ordering process easier for future purchases. 
+
+
+
+Problem Statement	4
+
+Today, anyone with the technical know-how can apply and register a domain name which is required to access a specific website. This can be done by contacting a web hosting service provider such as Bluehost and using their website one can verify the availability of a particular domain name. Once an available domain name has been found, the individual can proceed to purchasing the domain and thereafter use it however they like. Standard domain names like .co.ke and .com are general purpose domains and do not have any restrictions in order to acquire or use them, unlike .ac.ke which are specifically used for registered learning institutions and to acquire them, the buyer is required to provide a copy of the certificate of registration of the institution. 
+
+Internet fraudsters, an elite team of cybercriminals, are individuals who make use of technology to commit malicious activities on the internet with the intention of personal gain such as making profits. The absence of laws that restrict the acquisition of domains for online businesses and the ease of acquiring them paves way for internet fraudstars who acquire domains with malicious intentions. They are able to disguise their identities and IP addresses through the use of Virtual Private Networks and proxies which makes it difficult to track them once their deception comes to light.
+
+Once they acquire a domain, internet fraudstars publish a catalog of items or services on their website. They then make use of adsense platforms such as ylliX in order to lure potential victims to visit their website. Online shoppers judge the genuinity of the website by checking the domain name, 
+the visual appearance of the website and other personal criteria that they have deduced as proof of legitimacy. This does not necessarily guarantee the authenticity of the website and therefore puts the shopper at risk of being a victim of internet fraud. 
+
+The purpose of this research is to examine how internet fraudsters lure potential victims to their websites in order to make fraudulent payments and acquire personal information from them such as credit cards details. This research will be used to gain insights on the mechanisms that have been put in place to counter the activities of online fraudsters and to protect online shoppers.
+
+
+Justification	5
+
+Many businesses today are expanding into online platforms to interact with their customers as well as to expand their market. With the increasing number of ecommerce platforms, and the ease of developing them with content management systems like wordpress, it becomes harder for online shoppers to differentiate real and fake platforms. For this reason, the development of a platform that will help online shoppers to distinguish between fake and real websites is necessary. This will enable online shoppers to avoid getting scammed by online fraudsters
+
+
+The Objectives of the study include:
+1. 
+
+
+
+
+
+
+
+Literature Review	5
+Research Methods and Design	6
+Data collection	6
+Data Analysis	6
+Requirement’s Specification	6
+Functional Requirements	6
+Non-Functional Requirements	6
+System implementation	7
+System Testing and Evaluation	8
+Schedule	9
+Budget	9
+
+
+
+Report fraudulent websites

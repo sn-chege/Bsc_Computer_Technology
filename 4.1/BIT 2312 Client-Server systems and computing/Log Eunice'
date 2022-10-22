@@ -1,0 +1,55 @@
+
+
+
+
+Significance
+
+	-- the research design must include a clear answer to the "So What?" question. Be sure you clearly articulate why your study is important and how it contributes to the larger body of literature about the topic being investigated
+
+Contribution to the Field 
+
+	-- in placing your study within the context of prior research, don't just note that a gap exists; be clear in describing how your study contributes to, or possibly challenges, existing assumptions or findings.
+
+	
+* Start by clearly defining the purpose of your research. What practical or theoretical problem does the research respond to, or what research question did you aim to answer?
+
+* You can include some brief context on the social or academic relevance of your topic, but don’t go into detailed background information.
+
+* After identifying the problem, state the objective of your research. Use verbs like investigate, test, analyze  or evaluate to describe exactly what you set out to do.
+
+========
+
+========
+
+Google Assistant is built based on natural language processing, a procedure of converting speech into sounds, words, and ideas.
+
+	Google first records your speech. Because interpreting sounds takes up a lot of computational power, the recording of your speech is sent to Google’s servers to be analyzed more efficiently.
+
+	Google breaks down what you said into individual sounds. It then consults a database containing various words' pronunciations to find which words most closely correspond to the combination of individual sounds.
+
+	It then identifies key words to make sense of the tasks and carry out corresponding functions. For example, if Google Assistant notices words like "weather" or "temperature", it would open the weather app.
+
+	Google’s servers send the information back to your device and Google Assistant may speak. If Google Assistant needs to say anything back to us, it would go through the same process described above, but in reverse order.
+
+========
+
+
+Format:
+
+-Introduce SIRI and Personal Assistants
+
+An emerging trend in Information Technology is the use of personal digital assistants such as Siri. Siri is Apple company's personal digital assistant that uses Speech recognition and Natural Language processing to understand and interpret human input. Siri can make calls for you, set reminders, make reservations, and even make jokes to brighten your day. Another popular pick is Google Assistant, which is Google's personal digital assistant, Siri's competitor.  
+
+Siri uses a client-server architecture to process user requests. First, a users speech is recorded and the recording sent to the servers for analysis. Siri breaks down the recording into individual words closely corresponding to a common sequence of words. Siri then identifies key words to make sense of the request before carrying out a corresponding action. Apple servers send information back to your device and Siri may speak back to you. Apple has a distributed chain of data centers which act as data warehouses which provide Siri with data.
+
+Siri performs tasks on the server side while Google assistant performs tasks on the client-side. Google Assistant performs the initial voice recognition on the device before pulling information from the server whereas Siri performs nearly all tasks on the server.
+
+
+
+-Explain Significance
+
+-Explain Architechture behind them
+
+-Explain drawbacks
+
+-State objective of study
